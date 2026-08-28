@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">react_native_app</string>
+    <string name="tracking_widget_description">Shows the current live tracking destination, distance, ETA, and GPS location.</string>
+    <string name="tracking_map_widget_description">Shows a compact live tracking route map, next direction, distance, and ETA.</string>
+    <string name="nearby_places_widget_description">Shows swipeable nearby places and opens a selected place in the app.</string>
+</resources>

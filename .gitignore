@@ -1,51 +1,64 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
+# Operating System
 .DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# Node / React Native
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.metro-health-check*
+*.jsbundle
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# Android & Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+android/app/build/
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/local.properties
+*.keystore
+!debug.keystore
+*.apk
+*.aab
+.cxx/
+**/.cxx/
+*.hprof
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
+# iOS & Xcode
+**/Pods/
+Pods/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.ipa
+**/.xcode.env.local
 
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# Python / Backend
+# Python / FastAPI Backend
 .venv/
+venv/
+ENV/
 backend/.venv/
 **/__pycache__/
 *.py[cod]
@@ -55,4 +68,31 @@ backend/.venv/
 *.db
 backend/*.db
 .env
+.env.*
+!.env.example
+
+# IDE & Editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+*.class
+*.swp
+.history
+coverage/
+/coverage/
+
+# Flutter / Dart (legacy)
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+
 
